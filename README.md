@@ -9,6 +9,7 @@ Estimate Interest Income automation scripts
 | -------- | ------------ | ------------------ | ----------- | --------------------- |
 | populateHistoricRecord | Time-drive | Month - 1st | Midnight to 1am | Weekly |
 | populateHistoricRecord | Time-drive | Month - 15th | Midnight to 1am | Weekly |
+| errorCheckRates | Time-drive | Day Timer | 8pm to 9pm | Daily |
 
 *\*Day of the month if `Month timer` is selected or Day of Week if `Week timer` is selected* \
 *\^Event type if `From spreadsheet` is selected*
