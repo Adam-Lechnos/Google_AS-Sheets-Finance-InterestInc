@@ -7,7 +7,7 @@ function populateHistoricRecord() {
 
   // wait for data to load from WiseSheets or ImportRange
   checkCount = 1
-  while (checkWiseIm == "No Data" || checkWiseIm == null || checkWiseIm < 0) {      
+  while (checkWiseIm == "No Data" || checkWiseIm == null || checkWiseIm < 0 || !checkWiseIm) {      
     SpreadsheetApp.flush()
     checkWiseIm = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("yield_calcs").getRange("b44").getValue(); 
     console.log(`Run attempt ${checkCount}`)
